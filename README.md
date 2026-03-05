@@ -1,2 +1,100 @@
-# Hope-Speech-Detection
-Hope Speech Detection Shared Task implementation
+# SJM_MINDS@Dravidianlangtech@ACL2026:Machine Learning Approaches for Hope Speech Detection in Code-Mixed Tulu
+This repository contains the implementation of our system developed for the "Hope Speech Detection Shared Task".
+The task focuses on identifying different types of speech related to encouragement and discouragement in social media text
+Task 1: Multiclass Classification
+
+The goal of Task 1 is to classify text into the following categories:
+
+* Encouraging
+* Discouraging
+* Uninvolved
+* Blended Tone
+
+Two experimental runs were submitted for this task.
+
+**Run 1**
+
+* Model: Logistic Regression
+* Feature Representation: TF-IDF (max_features = 5000)
+
+**Run 2**
+
+* Model: Linear Support Vector Classifier (LinearSVC)
+* Feature Representation: TF-IDF with unigram and bigram features
+* Text preprocessing applied (lowercasing, removing URLs, mentions, hashtags, and punctuation)
+
+Implementation file: `Task1.pynb`
+
+Task 2: Fine-Grained Classification
+
+Task 2 focuses on fine-grained hope speech classification.
+
+**Run 1**
+
+* Model: Logistic Regression
+* Feature Representation: TF-IDF
+
+Implementation file: `Task2.pynb`
+
+---
+
+## Dataset
+
+The dataset provided by the shared task organizers includes:
+
+* Training data
+* Development data
+* Test data
+
+The dataset is not included in this repository and should be obtained from the official shared task organizers.
+
+Libraries Used
+
+The implementation uses the following Python libraries:
+
+* pandas
+* numpy
+* scikit-learn
+* re
+
+Install the required libraries using:
+
+
+pip install pandas numpy scikit-learn
+
+
+
+## Running the Code
+
+Open the notebooks and execute the cells sequentially.
+
+Task 1 implementation:
+
+```
+Task1.pynb
+```
+
+Task 2 implementation:
+
+```
+Task2.pynb
+```
+
+---
+
+## Output
+
+The system generates prediction files for submission to the shared task leaderboard.
+
+Example output files:
+
+* `SJM_MINDS_Tulu_run1.csv`
+* `SJM_MINDS_Tulu_run2.csv`
+
+---
+
+## Author
+HL Shashirekha,Manjula,Jayashree
+
+## License
+This repository is shared for research and academic purposes.
