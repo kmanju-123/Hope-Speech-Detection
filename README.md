@@ -94,7 +94,7 @@ Example output files:
 ---
 
 ## Author
-HL Shashirekha,Manjula,Jayashree
+Hosahalli Lakshmaiah Shashirekha,Manjula,Jayashree
 
 ## License
 This repository is shared for research and academic purposes.
