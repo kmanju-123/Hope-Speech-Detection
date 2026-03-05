@@ -1,7 +1,8 @@
 # SJM_MINDS@Dravidianlangtech@ACL2026:Machine Learning Approaches for Hope Speech Detection in Code-Mixed Tulu
+
 This repository contains the implementation of our system developed for the "Hope Speech Detection Shared Task".
 The task focuses on identifying different types of speech related to encouragement and discouragement in social media text
-Task 1: Multiclass Classification
+Task 1: Coarse-Grained Hope Tone Classification
 
 The goal of Task 1 is to classify text into the following categories:
 
@@ -25,10 +26,16 @@ Two experimental runs were submitted for this task.
 
 Implementation file: `Task1.pynb`
 
-Task 2: Fine-Grained Classification
+Task 2: Fine-Grained Hope Type Classification
 
-Task 2 focuses on fine-grained hope speech classification.
+The goal of Task 2 is to classify text into the following categories:
 
+* Optimistic hope
+* Realistic hope
+* Inspiring hope
+* Fading hope
+* Hopelessness
+  
 **Run 1**
 
 * Model: Logistic Regression
